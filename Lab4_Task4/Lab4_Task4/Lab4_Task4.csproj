@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{EF22EAC8-8C13-4D51-90B9-F305FA088BAD}</ProjectGuid>
+    <ProjectGuid>{D32F4160-4335-4BA4-B63F-587C3D5C3BB6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Lab4_Task3</RootNamespace>
-    <AssemblyName>Lab4_Task3</AssemblyName>
+    <RootNamespace>Lab4_Task4</RootNamespace>
+    <AssemblyName>Lab4_Task4</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Animal.cs" />
-    <Compile Include="Cat.cs" />
-    <Compile Include="Dog.cs" />
-    <Compile Include="Fish.cs" />
-    <Compile Include="Parrot.cs" />
+    <Compile Include="ApplicationLicense.cs" />
+    <Compile Include="Common.cs" />
+    <Compile Include="Pro.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rectangle.cs" />
+    <Compile Include="Trial.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

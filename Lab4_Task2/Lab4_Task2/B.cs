@@ -7,14 +7,13 @@ using System.Diagnostics;
 
 namespace Lab4_Task2
 {
-    class Program
+    public class B
     {
-        static void Main(string[] args)
+        public virtual void PrintProperties()
         {
-            A a = new A(new C("Test"), new D(), new E());
-
-            a.PrintProperties();
-            Console.ReadLine();
+            Debug.WriteLine("");
+            Debug.WriteLine("Class B:");
+            Debug.WriteLine("Base class, has no properties");
         }
     }
 }
